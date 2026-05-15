@@ -1,0 +1,14 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "is anyone there?", "hey"],
+      "responses": ["Hello! How can I help you with COVID info today?", "Hi there, what can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you later", "goodbye"],
+      "responses": ["Stay safe! Goodbye.", "Bye! Remember to wash your hands."]
+    }
+  ]
+}
